@@ -1,5 +1,11 @@
 # Silly Big Type Indicator (SBTI)
 
+<p align="center">
+  <a href="https://www.sbti.ai/en">
+    <img src="./public/sbti-logo.svg" alt="SBTI Logo" width="900" />
+  </a>
+</p>
+
 Official website: **[https://www.sbti.ai/en](https://www.sbti.ai/en)**
 
 **SBTI** is an internet-native personality experience focused on entertainment: around 30 questions (plus a hidden branch trigger), cross-analysis across five core models and fifteen dimensions, and shareable personality outcomes.

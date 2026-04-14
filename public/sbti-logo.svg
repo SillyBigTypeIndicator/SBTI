@@ -1,0 +1,21 @@
+<svg width="1024" height="256" viewBox="0 0 1024 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g1" x1="48" y1="32" x2="208" y2="224" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7C3AED"/>
+      <stop offset="0.5" stop-color="#D946EF"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="300" y1="64" x2="930" y2="192" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111827"/>
+      <stop offset="1" stop-color="#374151"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1024" height="256" rx="28" fill="#F8FAFC"/>
+  <rect x="24" y="24" width="232" height="208" rx="24" fill="url(#g1)"/>
+  <path d="M94 118C94 96.4 111.4 79 133 79C154.6 79 172 96.4 172 118C172 139.6 154.6 157 133 157C111.4 157 94 139.6 94 118Z" fill="white" fill-opacity="0.95"/>
+  <path d="M85 180C85 165.6 96.6 154 111 154H155C169.4 154 181 165.6 181 180V186H85V180Z" fill="white" fill-opacity="0.95"/>
+  <rect x="292" y="76" width="688" height="112" rx="22" fill="white"/>
+  <text x="320" y="146" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="64" font-weight="800" fill="url(#g2)">Silly Big Type Indicator</text>
+  <text x="320" y="202" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="28" font-weight="600" fill="#6B7280">SBTI · Official Website: sbti.ai/en</text>
+</svg>

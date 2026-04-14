@@ -38,6 +38,14 @@ export function SiteHeader() {
           >
             Start
           </Link>
+          <a
+            href="https://www.sbti.ai/en"
+            target="_blank"
+            rel="noreferrer noopener"
+            className={cn(buttonVariants({ size: "sm", variant: "outline" }), "hidden rounded-full md:inline-flex")}
+          >
+            Live Site
+          </a>
           <ModeToggle />
         </div>
       </div>
