@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.sbti.ai";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -30,6 +30,9 @@ export const metadata: Metadata = {
     title: "Silly Big Type Indicator",
     description: "Meme-native personality fun with serious product polish.",
     url: siteUrl,
+  },
+  alternates: {
+    canonical: "https://www.sbti.ai/en",
   },
 };
 

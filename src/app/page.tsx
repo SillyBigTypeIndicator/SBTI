@@ -27,6 +27,17 @@ export default function HomePage() {
             SBTI turns internet-native chaos into a compact four-letter type, a chaos score, and a posting-style
             roast—then lets you translate other personality systems into the same shared trait graph.
           </p>
+          <p className="mt-3 text-sm text-muted-foreground">
+            Official live experience:{" "}
+            <a
+              href="https://www.sbti.ai/en"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="font-medium text-violet-600 underline-offset-2 hover:underline dark:text-violet-400"
+            >
+              sbti.ai/en
+            </a>
+          </p>
           <div className="mt-10 flex flex-wrap items-center justify-center gap-3">
             <Link
               href="/test"

@@ -1,6 +1,10 @@
 # Silly Big Type Indicator (SBTI)
 
-**SBTI** is a playful, internet-native personality lab: a main “Silly Big Type” test (28 questions), a compact four-letter type system (16 types), and a **provider-based integration layer** that maps other personality-style inputs into one shared normalized trait graph—then into SBTI via a deterministic rules engine.
+Official website: **[https://www.sbti.ai/en](https://www.sbti.ai/en)**
+
+**SBTI** is an internet-native personality experience focused on entertainment: around 30 questions (plus a hidden branch trigger), cross-analysis across five core models and fifteen dimensions, and shareable personality outcomes.
+
+This repository is the open-source codebase for the SBTI web app and integration architecture.
 
 > **Disclaimer:** For entertainment and self-reflection only—not scientific diagnosis, education, or hiring. This project is an **original parody** with its own identity; it is **not** affiliated with any similarly named organization or website.
 
@@ -16,6 +20,14 @@
 - **Dev JSON lab** (`/dev/pack`) — validate custom trait JSON  
 - **API** — `POST /api/compare`, `GET /api/share?type=EOVA`, `GET /api/session`  
 - **Persistence** — Prisma + SQLite (dev); swap `DATABASE_URL` for Postgres in production  
+
+## Product alignment with sbti.ai
+
+- **Core test shape** — ~31-question flow, includes hidden-branch style logic, optimized for 5–8 minutes
+- **Five core models** — Self, Emotional, Attitude, Action Drive, Social
+- **15-dimension mindset** — model-backed scoring and mapping into personality outputs
+- **Cross-analysis direction** — supports external personality systems and MBTI-style adapter mapping
+- **Privacy-first messaging** — browser-local calculation style can be supported by client-only mode
 
 ## Architecture
 
