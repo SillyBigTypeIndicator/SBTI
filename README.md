@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://www.sbti.ai/en">
-    <img src="./public/sbti-logo.svg" alt="SBTI Logo" width="900" />
+    <img src="./Logo.png" alt="SBTI Logo" width="320" />
   </a>
 </p>
 
